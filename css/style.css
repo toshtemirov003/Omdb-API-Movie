@@ -1,0 +1,79 @@
+/* GENERAL */
+html {
+   box-sizing: border-box;
+   height: 100%;
+   scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+   box-sizing: inherit;
+}
+
+body {
+   display: flex;
+   flex-direction: column;
+   height: 100%;
+   margin: 0;
+   padding: 0;
+   overflow-x: hidden;
+   font-family: "Arial", sans-serif;
+   background-color: #fff;
+   background-image: url(../img/bgfon.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+img {
+   max-width: 100%;
+   height: auto;
+}
+
+.visually-hidden {
+   position: absolute;
+   white-space: nowrap;
+   width: 1px;
+   height: 1px;
+   overflow: hidden;
+   border: 0;
+   padding: 0;
+   clip: rect(0 0 0 0);
+   clip-path: inset(50%);
+   margin: -1px;
+}
+
+.container {
+   width: 100%;
+   max-width: 900px;
+   padding-left: 20px;
+   padding-right: 20px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.input {
+   margin-bottom: 40px;
+}
+
+.list {
+   padding: 0;
+   margin: 0;
+   list-style-type: none;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.list-item {
+   width: 200px;
+   padding: 15px;
+   margin-bottom: 30px;
+   border: 2px solid rgb(255, 0, 0);
+   border-radius: 10px;
+   background-color: rgb(63, 216, 109);
+}
+
+.movie-img {
+   border-radius: 5px;
+}
